@@ -3,7 +3,97 @@ guid: f68761f9f8e89ce4a9cccf8eccf552f7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: bd5f5416a7c0e4246962478c423a6969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: azul
+    second: {fileID: 2100000, guid: c05e0c54c0f06064cb9fb6963e8c766d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cinzentos
+    second: {fileID: 2100000, guid: c4319eed9d3ec1d48be6d8e8a68b97d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cor_livro_azul
+    second: {fileID: 2100000, guid: afc12b1b9890f5145aa53d6005d40469, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cor_livro_verde
+    second: {fileID: 2100000, guid: 343877a4223092a4c8b319df9a23488c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cor_livro_vermelha
+    second: {fileID: 2100000, guid: 872eb05a41c9f884d8b24cd16312b364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cor_madeira_moveis
+    second: {fileID: 2100000, guid: e3c9358d1b2c3f94da968913d1b7ef7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cor_puxadores
+    second: {fileID: 2100000, guid: 39970d6ea9d70de419efc45e0a2344d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: impressora
+    second: {fileID: 2100000, guid: 736c0539122af6040a2eb363a07d7a26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: madeira_escura
+    second: {fileID: 2100000, guid: fd26934a1acb44141ab180161cb2646a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plantas
+    second: {fileID: 2100000, guid: 385e669d421d3dc41bf0d1461a4bb4d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rato1
+    second: {fileID: 2100000, guid: ac90c74c8e5901d4398e4da917b78d43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: relogio
+    second: {fileID: 2100000, guid: d3cdb4f761e3f70439220fcd9597144b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rodape
+    second: {fileID: 2100000, guid: ddad63f1d6de8f549bef6529244e7803, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sofa
+    second: {fileID: 2100000, guid: 424113726bd662140ac6b45d6a2ab5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: c5c3c8230f1ac7e4f837551abd5e153f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vermelho
+    second: {fileID: 2100000, guid: e02e4f2633b0bce4d9d7f660df6c8adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: walls
+    second: {fileID: 2100000, guid: e69c9e41e3e1c0b4f9418943eea1d572, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
