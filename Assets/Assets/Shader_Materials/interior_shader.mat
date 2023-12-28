@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: material_shader
+  m_Name: interior_shader
   m_Shader: {fileID: -6465566751694194690, guid: da10b8e32b56efc4aa717b7971dbaad6,
     type: 3}
   m_ValidKeywords: []
@@ -31,6 +31,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _CubeMap:
         m_Texture: {fileID: 8900000, guid: 2a126be2778d17a438040f6e9b05f068, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap1:
+        m_Texture: {fileID: 8900000, guid: 2a126be2778d17a438040f6e9b05f068, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap2:
+        m_Texture: {fileID: 8900000, guid: dceb9703dca9bd245a0086020e937ce8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubemapAsset_250f29e7b10a4e09a27a85d42daabec5_Out_0:
