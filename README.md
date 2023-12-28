@@ -12,16 +12,16 @@
 
 	 - **Montar cenário:**
 		 - Para fazer a montagem do cenário necessitamos de assets (eu usei os assets feitos pelo meu grupo em DJD2). Após montar o cenário que neste caso é o interior de uma casa, posicionamos a câmara no meio do cenário para fazer a "quarta parede" e usamos um script para renderizar o CubeMap.
-     		![CubeMap montagem de cenário]()
+     		![CubeMap montagem de cenário](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Montagem_cenario.png)
    
      		O script cria uma secção no "*MenuItem*" que se chama "*Toolbox*" e lá dentro temos uma função que se chama "*RenderCubemapWizard*".
-		 ![CubeMap Toolbox]()
+		 ![CubeMap Toolbox](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Toolbox.png)
 
      		Ao selecionarmos essa função é nos pedida a posição da câmara criada anteriormente e podemos clicar no botão em baixo que diz "*Render*".
-		 ![CubeMap Render]()
+		 ![CubeMap Render](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Render.png)
 
      		Após clicarmos no botão e formos ao projeto conseguimos ver que fui criada automaticamente uma pasta dentro dos "*Assets*" chamada "*Cubemaps*" que lá dentro contêm o CubeMap criado com o nome da câmara.
-		 ![CubeMap Repositorio Cubemaps]()
+		 ![CubeMap Repositorio Cubemaps](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/repositorio.png)
 
 	 
 
