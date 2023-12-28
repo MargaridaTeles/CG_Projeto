@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: outdoor_shader
+  m_Name: InteriorShop_Material
   m_Shader: {fileID: -6465566751694194690, guid: da10b8e32b56efc4aa717b7971dbaad6,
     type: 3}
   m_ValidKeywords: []
@@ -29,20 +29,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _CubeMap:
-        m_Texture: {fileID: 8900000, guid: cd3bfdf4dcd30cb4499d16bf6c40aa78, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _CubeMap1:
-        m_Texture: {fileID: 8900000, guid: cd3bfdf4dcd30cb4499d16bf6c40aa78, type: 3}
+        m_Texture: {fileID: 8900000, guid: 47a17f0d6c5d2b44681af83e45920e10, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubeMap2:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _CubemapAsset_250f29e7b10a4e09a27a85d42daabec5_Out_0:
-        m_Texture: {fileID: 8900000, guid: 041ab14788183b04391e53f9580917ba, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -130,7 +122,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &4148361098384244411
+--- !u!114 &7620176350545222323
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
