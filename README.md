@@ -3,9 +3,47 @@
 **Trabalho realizado por:** Margarida Teles, a22204247
 
 ## O que é?
-	O Interior Mapping Shader é basicamente um efeito de parallax com um shader que projeta textura numa superfície, em seguida mapeia essa textura de uma maneira que distorce a imagem em relação à visão da câmera. É uma ótima técnica para simular profundidade atrás de uma janela.
+
+O Interior Mapping Shader é basicamente um efeito de parallax com um shader que projeta textura numa superfície, em seguida mapeia essa textura de uma maneira que distorce a imagem em relação à visão da câmera. É uma ótima técnica para simular profundidade atrás de uma janela.
 
 ## Funcionamento do Shader
+
+ **Distorção da Câmera**
+ A distorção é um aspeto fundamental que ajuda a criar a ilusão de profundidade e tridimensionalidade quando projetamos texturas 2D em superfícies planas. A distorção é essencial para garantir que a projeção se pareça correta e realista, especialmente quando é vista de diferentes ângulos.
+ 
+ **Direção da Visualização** - A distorção começa por receber a direção da visualização, ou seja, a direção para que nos encontramos a olhar e a posição da câmera em relação ao objeto com o shader.
+ **Mapeamento de Coordenadas** - O shader utiliza técnicas de mapeamento de coordenadas para associar cada ponto na superfície do objeto a uma posição correspondente na textura. Estas coordenadas são ajustadas de acordo com a posição e a direção da câmera.
+ **Transformação da Projeção** - Com base nas informações da câmera, o shader aplica transformações às coordenadas da textura. Estas transformações tratam-se de rotações, escalas e translações que ajudam alinhar a textura com a vista, dando assim a ilusão de profundidade.
+
+ **Shader Graph**
+ Os nodes usados na criação do shader foram:
+ - **Sub Graph** - Criado para distorcer a câmera, através da direção de visualização, mapeamento de coordenadas e transformação da projeção, anteriormente referidas.
+ - **Tilling** - Controla o padrão de repetição do mapeamento da textura.
+ - **Depth** - A profundidade da textura.
+ - **CubeMap** - Textura mapeada em um cubo.
+ - **Lerp** - Combina dois valores baseados em interpolação.
+ - **Checkerboard** - Gere um padrão.
+	- **Frequency** - Define a quantidade de repetições do padrão em ambas as direções.
+
+ **Sub Graph "interiorCubeMap"**
+ Os nodes usados foram: 
+- **Tilling** - SubGraph usada como função relacionada à repetição de Texturas. Define um deslocamento bidimensional.
+- **Math » Basic » Subtract** - Subtrai dois valores ou texturas
+- **UV » Tilling and Offset** - Combina o conceito de **Tilling** com um deslocamento. Permitindo que se repita um padrão e se desloque ao mesmo tempo.
+- **Input » Geometry » UV** - Refere as coordenadas da textura.
+- **Math » Range » Fraction** - Retorna a parte fracionária de um número.
+- **Math » Basic » Multiply** - Mutiplicação entre dois valores ou textura.
+- **Channel » Split** - Divide o valor recebido pelos componentes (R, G, B).
+- **Input » Basic » Vector3** - Determina as coordenadas (x, y, z).
+- **Utility » Preview** - Usado para visualizar valores em tempo real.
+- **Math » Basic » Divide** - Divide os valores recebidos.
+- **Math » Advanced » Absolute** - Garante que componentes são positivas.
+- **Input » Geometry » View Direction** - Este node serve para fornecer a direção de visualização da câmera no espaço 3D. A  **View Direction** é essencial para calcular como a textura será distorcida ao ser projetada na superfície do objeto.
+- **Properties » Depht** -  Representa a profundidade da textura.
+- **Texture » Sample Reflected Cubemap** - Mostra a textura cubemap, guarda informações de cor do ambiente em todas as direções (cima, baixo, frente, trás, esquerda e direita).
+- **Output** - Envia a saída processada para a renderização.
+
+## Como usar?
 
  - **CubeMap:**
 		 Os CubeMaps podem ser criados de duas maneiras:
@@ -32,7 +70,10 @@
 
 	 
 
- 
+## Curiosidade
+
+O Interior Mapping Shader é bastante usado em alguns jogos, como por exemplo no spider-man.
+(Adicionar video) 
 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
