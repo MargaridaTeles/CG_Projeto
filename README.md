@@ -2,6 +2,9 @@
 
 **Trabalho realizado por:** Margarida Teles, a22204247
 
+## O que é?
+	O Interior Mapping Shader é basicamente um efeito de parallax com um shader que projeta textura numa superfície, em seguida mapeia essa textura de uma maneira que distorce a imagem em relação à visão da câmera. É uma ótima técnica para simular profundidade atrás de uma janela.
+
 ## Funcionamento do Shader
 
  - **CubeMap:**
