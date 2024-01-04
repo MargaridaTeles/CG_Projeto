@@ -6,7 +6,7 @@
 
 Comecei por fazer o que qualquer pessoa, que não tem qualquer conhecimento em shaders faria, pesquisar. Pesquisei sobre o shader e encontrei artigos interessantes, inclusive alguns à cerca de bugs encontrados em jogos por causa deste shader.
 
-Após ter pesquisado sobre como fazer shader graph, pesquisei sobre como poderia eu montar um cenário no Unity e usá-lo no shader graph, facilitando assim a utilização de assets meus sem nenhum problema.
+Após ter pesquisado sobre como fazer o Interior Mapping Shader, pesquisei sobre como poderia eu montar um cenário no Unity e usá-lo no shader graph, facilitando assim a utilização de assets meus sem nenhum problema.
 
 Após essas pesquisas, comecei a desenvolver o projeto.
 
@@ -114,4 +114,5 @@ Ao perceber que muitas coisas nos jogos são simulação, fiquei mais fascinada 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
 - **[Artigo sobre RenderToCubeMap](https://docs.unity3d.com/ScriptReference/Camera.RenderToCubemap.html)**
+- **[Video Youtube Fake Interiors Shader](https://www.youtube.com/watch?v=tXtu8Yzp7I0)**
 
