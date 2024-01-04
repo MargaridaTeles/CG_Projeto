@@ -73,7 +73,8 @@ O Interior Mapping Shader é basicamente um efeito de parallax com um shader que
 ## Curiosidade
 
 O Interior Mapping Shader é bastante usado em alguns jogos, como por exemplo em Spider-Man.
-![Gif SpiderMan](https://media.giphy.com/media/84zB4Re6ObKnXRZp17/giphy-downsized-large.gif)
+Para eles corrigirem a alteração das paredes nos cantos, eles decidiram não usar o shader, nas janelas que são juntas e para dar a sensação de que as salas são diferentes optaram por colocar "cortinas" à frente das janelas.
+![Gif SpiderMan](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_SpiderMan.gif)
 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
