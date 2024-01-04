@@ -68,7 +68,27 @@ O Interior Mapping Shader é basicamente um efeito de parallax com um shader que
 			
 		 	![CubeMap Repositorio Cubemaps](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/repositorio.png)
 
-	 
+## Resultados Finais
+
+1º Teste
+<p align="center">
+  <img width="460" height="300" src="">
+</p>
+
+Cenário Montado
+<p align="center">
+  <img width="460" height="300" src="">
+</p>
+
+Interior Shader Map
+<p align="center">
+  <img width="460" height="300" src="">
+</p>
+
+Utilização no projeto de DJD2
+<p align="center">
+  <img width="460" height="300" src="">
+</p>
 
 ## Curiosidade
 
@@ -77,6 +97,11 @@ Para eles corrigirem a alteração das paredes nos cantos, eles decidiram não u
 <p align="center">
   <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_SpiderMan.gif">
 </p>
+
+## Conclusões Finais
+
+Durante esta disciplina e este projeto, ganhei algum conhecimento à cerca de shaders. Não tinha noção que eram usados shaders para tanta coisa e como usá-los pode facilitar a nossa vida em termos de desenvolvimento, antes acreditava que muitas coisas nos jogos eram reais e agora consigo perceber que muita coisa não passa de simulação, desenvolvida através da matemática.
+Ao perceber que muitas coisas nos jogos são simulação, fiquei mais fascinada e interessada para perceber como funcionam e consegui reproduzir os meus próprios para usar nos meus projetos.
 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
