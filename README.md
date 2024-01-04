@@ -72,22 +72,22 @@ O Interior Mapping Shader é basicamente um efeito de parallax com um shader que
 
 1º Teste
 <p align="center">
-  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/test.mp4">
+  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_Test.gif">
 </p>
 
 Cenário Montado
 <p align="center">
-  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/BuildRoom.mp4">
+  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_BuildRoom.gif">
 </p>
 
 Interior Shader Map
 <p align="center">
-  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/InteriorShaderMapping.mp4">
+  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_InteriorShaderMap.gif">
 </p>
 
 Utilização no projeto de DJD2
 <p align="center">
-  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/ExteriorShaderMapping.mp4">
+  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_ProjectDJD2.gif">
 </p>
 
 ## Curiosidade
