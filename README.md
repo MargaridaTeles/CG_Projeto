@@ -48,7 +48,7 @@ O Interior Mapping Shader é basicamente um efeito de parallax com um shader que
  - **CubeMap:**
 		 Os CubeMaps podem ser criados de duas maneiras:
 	 - **Imagem:**
-		 - Através da Imagem, apenas necessitamos de exportar uma imagem para dentro do nosso projeto, alterar "Texture Shape" para Cube e temos o nosso CubeMap feito.
+		 - Através da Imagem, apenas necessitamos de importar uma imagem para dentro do nosso projeto, alterar "Texture Shape" para Cube e temos o nosso CubeMap feito.
 		 ![CubeMap através de Imagem](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/inspector_Image.png)
 
 	 - **Montar cenário:**
@@ -74,7 +74,9 @@ O Interior Mapping Shader é basicamente um efeito de parallax com um shader que
 
 O Interior Mapping Shader é bastante usado em alguns jogos, como por exemplo em Spider-Man.
 Para eles corrigirem a alteração das paredes nos cantos, eles decidiram não usar o shader, nas janelas que são juntas e para dar a sensação de que as salas são diferentes optaram por colocar "cortinas" à frente das janelas.
-![Gif SpiderMan](https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_SpiderMan.gif)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/MargaridaTeles/CG_Projeto/blob/main/Images/Gif_SpiderMan.gif">
+</p>
 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
