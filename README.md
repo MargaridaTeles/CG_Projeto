@@ -2,6 +2,14 @@
 
 **Trabalho realizado por:** Margarida Teles, a22204247
 
+## Desenvolvimento
+
+Comecei por fazer o que qualquer pessoa, que não tem qualquer conhecimento em shaders faria, pesquisar. Pesquisei sobre o shader e encontrei artigos interessantes, inclusive alguns à cerca de bugs encontrados em jogos por causa deste shader.
+
+Após ter pesquisado sobre como fazer shader graph, pesquisei sobre como poderia eu montar um cenário no Unity e usá-lo no shader graph, facilitando assim a utilização de assets meus sem nenhum problema.
+
+Após essas pesquisas, comecei a desenvolver o projeto.
+
 ## O que é?
 
 O Interior Mapping Shader é basicamente um efeito de parallax com um shader que projeta textura numa superfície, em seguida mapeia essa textura de uma maneira que distorce a imagem em relação à visão da câmera. É uma ótima técnica para simular profundidade atrás de uma janela.
@@ -105,3 +113,5 @@ Ao perceber que muitas coisas nos jogos são simulação, fiquei mais fascinada 
 
 ## Bibliografia
 - **[PDF Interior Mapping Shader](https://www.proun-game.com/Oogst3D/CODING/InteriorMapping/InteriorMapping.pdf)**
+- **[Artigo sobre RenderToCubeMap](https://docs.unity3d.com/ScriptReference/Camera.RenderToCubemap.html)**
+
